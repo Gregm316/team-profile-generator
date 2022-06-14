@@ -6,7 +6,7 @@ const Employee = require("../lib/Employee");
 test("create manager object", () => {
   const manager = new Manager("Greg", 150, "gregm316@gmail.com", 10);
 
-  expect(manager.officenumber).toEqual(expect.any(Number));
+  expect(manager.officeNumber).toEqual(expect.any(Number));
 });
 
 // test get role
@@ -20,5 +20,5 @@ test("get employee role", () => {
 test("get office number", () => {
   const manager = new Manager("Greg", 150, "gregm316@gmail.com", 10);
   
-  expect(manager.getOfficeNumber()).toEqual(expect.stringContaining(manager.officenumber.toString()));
+  expect(manager.getOfficeNumber()).toEqual(expect.any(Number));
 });
