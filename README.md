@@ -25,6 +25,7 @@ A user must clone this repository and make sure they have installed Node.js on t
 From the command line in the terminal, a user can type `node index` to begin a series of questions in order to generate a team profile based on the employee information that is given.
 
 Click on the following link to view the video demonstration:
+https://drive.google.com/file/d/1tERZUKHo-TTacpp8uqIqZXFY2q_gCjZk/view
 
 ### **Screenshot of Generated Team Profile:**
 
