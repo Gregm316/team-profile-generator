@@ -9,7 +9,6 @@ const generateHTML = require('./src/generateHTML');
 // import modules
 const fs = require('fs'); 
 const inquirer = require('inquirer');
-// const { off } = require('process');
 
 // empty array for team 
 const teamArray = []; 
